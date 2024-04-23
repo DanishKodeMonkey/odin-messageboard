@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for odin-messageboard on 2024-04-23T13:08:41+02:00
+# fly.toml app configuration file generated for odin-messageboard-morning-lake-5742 on 2024-04-23T14:23:47+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'odin-messageboard'
+app = 'odin-messageboard-morning-lake-5742'
 primary_region = 'ams'
 
 [build]
