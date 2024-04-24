@@ -3,7 +3,15 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  p An educational experiment in the usage of HTTP leveraging express and PUG 
+  p Please leave a message from your visit 
+    | here 
+    a(href="/new") Add a message!
 
+
+  hr
+  hr
+  
   each message in messages
     p
       | User: #{message.user}, Text: #{message.text}, Added: #{message.added}

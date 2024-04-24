@@ -18,7 +18,10 @@ const messages = [
 /* GET home page. */
 router.get('/', function (req, res, next) {
     //make sure to pass messages as well to the rendering engine
-    res.render('index', { title: 'Express', messages: messages });
+    res.render('index', {
+        title: 'The odin message board',
+        messages: messages,
+    });
 });
 
 router.get('/new', function (req, res, next) {
